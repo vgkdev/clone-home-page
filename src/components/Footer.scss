@@ -1,0 +1,74 @@
+.footer-container {
+  width: 100%;
+  height: 300px;
+  background-color: #000000;
+
+  .top-footer {
+    // border: 1px solid red;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    .company {
+      cursor: pointer;
+      color: white;
+      font-size: 26px;
+      font-weight: 600;
+    }
+
+    .contact {
+      width: 250px;
+      //   border: 1px solid red;
+
+      .divider {
+        border: 1px solid #282828;
+        margin: 15px 0;
+      }
+
+      .title {
+        color: white;
+        font-size: 26px;
+        font-weight: 600;
+      }
+
+      .content {
+        color: grey;
+      }
+
+      .social-media {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+
+        img {
+          cursor: pointer;
+        }
+      }
+    }
+
+    .information {
+      display: flex;
+      flex-direction: column;
+
+      .title {
+        color: white;
+        font-size: 26px;
+        font-weight: 600;
+        margin-bottom: 20px;
+      }
+
+      a {
+        text-decoration: none;
+        margin-bottom: 10px;
+        color: grey;
+      }
+    }
+  }
+
+  .end-footer {
+    color: grey;
+    padding: 0 200px;
+  }
+}
